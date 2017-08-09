@@ -56,12 +56,7 @@
 <li><h2>{{ "Expected Return" }}</li><h2>{{ "%.2f" % entries[0].return|float + "%" }}</h2>
 <li><h2>{{ "Ann. Volatility:" }}</li><h2>{{ "%.2f" % entries[0].vol|float + "%"}}</h2>
 <li><h2>{{ "ETF Names and Weights:" }}</li><h2>{{ "MINT: %.2f" % entries[0].etf1 + "%", "EMB: %.2f" % entries[0].etf2 + "%", "IAU: %.2f" % entries[0].etf3 + "%", "VCIT: %.2f" % entries[0].etf4 + "%", "MUB: %.2f" % entries[0].etf5 + "%", "SCHA: %.2f" % entries[0].etf6 + "%", "VEA: %.2f" % entries[0].etf7 + "%", "VYM: %.2f" % entries[0].etf8 + "%", "SCHH: %.2f" % entries[0].etf9 + "%", "VWO: %.2f" % entries[0].etf10 +"%", "FENY: %.2f" % entries[0].etf11 +"%", "VTIP: %.2f" % entries[0].etf12 +"%", "VGLT: %.2f" % entries[0].etf13 +"%", "ITE: %.2f" % entries[0].etf14 +"%"}}</h2>
-<p>
-  <img src = "{{url_for('static', filename='plot.png')}}" />
-</p>
-<p>
-  <img src = "{{url_for('static', filename='weights.png')}}" />
-</p>
+
 {% else %}
 <li><em>Unbelievable.  No entries here so far</em>
 {% endfor %}
