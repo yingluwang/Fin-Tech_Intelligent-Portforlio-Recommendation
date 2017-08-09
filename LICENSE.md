@@ -1,7 +1,7 @@
 # The MIT License (MIT)
 ---
 
-Copyright (c) 2017-2019 Arash Asady <aasady88@gmail.com>, Antoinette Cocorinos <aic262@stern.nyu.edu>, Mingye Yin <my1553@nyu.edu>, Yinglu Wang <yw2510@nyu.edu>
+Copyright (c) 2017-2019 Arash Asady <aasady88@gmail.com>, Antoinette Cocorinos <aic262@stern.nyu.edu>, Mingye Yin <my1553@nyu.edu>, Yinglu Wang <yw2510@nyu.edu>, Damien Bertolo <bertolodp@gmail.com>
 
 ````sh
 Permission is hereby granted, free of charge, to any person obtaining a copy
