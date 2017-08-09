@@ -225,9 +225,7 @@ def portfolio(score):
     plt.title('Black-Litterman Market Implied')
     plt.ylabel('Annualized Expected Return')
     plt.xlabel('Standard Deviation as Risk')
-    #dir_path = os.path.dirname(os.path.realpath(__file__))
-    #pylab.savefig(dir_path+'/static/plot.png')
-    pylab.savefig('plot.png')
+    pylab.savefig('plot.png') #Chart is saved to this Fin-tech folder by default.
     plt.close()
 
     y_pos = np.arange(len(tickers))
@@ -235,8 +233,7 @@ def portfolio(score):
     plt.xticks(y_pos, tickers, fontsize = 5)
     plt.ylabel('Percentage')
     plt.title('Portfolio Weights')
-    #pylab.savefig(dir_path+'/static/weights.png')
-    pylab.savefig('weights.png')
+    pylab.savefig('weights.png') #Chart is saved to this Fin-tech folder by default.
     plt.close()
 
     return weights_bl, return_bl, risk_bl*100
